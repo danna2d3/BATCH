@@ -1,0 +1,1057 @@
+:root {
+    --gray:#494949;
+    --botones:#0A939E;
+    --naranja:#FF7C43;
+    --titulos:#0A6E9F;
+    --sm: 14px;
+    --md: 16px;	
+    --lg: 28px;
+}
+body {
+    margin: 0;
+  overflow-x: hidden;
+}
+
+.boton{
+    margin-top: 15px;
+    margin-left: 80px;
+    text-decoration: none;
+}
+.login {
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 290px;
+    left:1300px;
+    transform: scale(1.3);
+}
+
+.form-container {
+    display: grid;
+    grid-template-rows: auto 1fr 
+    auto;
+    width: 350px;
+    height: 380px;
+    background-color: #fff;
+}
+.form-container1 {
+    width: 650px; 
+
+}
+.title {
+    font-size: var(--lg);
+    margin-bottom: 35px;
+    text-align: center;
+  color:var(--botones);
+  font-family: PT Sans
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+
+}
+.form div{
+    display: flex;
+    flex-direction: column;
+}
+.label {
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.input {
+    background-color: var(--botones);
+    border: none;
+    height: 40px;
+    font-size: var(--md);
+    padding: 6px;
+    margin-bottom: 12px;
+    color:white;
+    margin-left: 40px; 
+    margin-right: 40px; 
+  font-family: Montserrat;
+}
+.input-name,
+.input-email,
+.input-telefono {
+    margin-bottom: 8px;
+
+}
+.input-name::placeholder, .input-email::placeholder, .input-telefono::placeholder {
+  color: white;
+  text-align: center;
+
+}
+.form9 .input::placeholder {
+  color: var(--titulos);
+  font-weight: bolder;
+  text-align: left;
+  margin-right:-5px;
+}
+.primary-buttom {
+    background-color: var(--naranja);
+    border-radius: 15px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+  padding-bottom: 20px;
+    font-weight: bold;
+    height: 25px;
+    text-decoration: none;
+  margin-left: 40px; 
+  margin-right: 20px;
+  font-family: Montserrat;
+}
+.primary-buttom:hover {
+    background-color: #ff6d2e;
+}
+.primary-buttom9 {
+    background-color: var(--naranja);
+    border-radius: 25px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    height: 35px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: Montserrat;
+    padding-right: 70px;
+}
+.primary-buttom9:hover {
+    background-color: #ff6d2e;
+}
+.parte2-9{
+  height: 600px;
+}
+.login-buttom {
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+#politica_datos{
+  margin-left: 30px; 
+  margin-right: 30px;
+}
+#name9, #SitioWeb{
+  padding-right: 540px;
+  background-color: white;
+  height: 50px;
+  color: var(--botones);
+  margin-top: 10px;
+}
+#email9, #telefono9{
+  padding-right: 160px;
+  background-color: white;
+  height: 50px;
+  margin-top: 10px;
+  color: var(--botones);
+}
+#email9{
+  margin-right: -15px;
+}
+.form-piepagina{
+  margin-top: 80px;
+  margin-right: 50px;
+  margin-left: 10px;
+  }
+.form9{
+  background-color: var(--titulos);
+  padding-top: 40px;
+  height:350px;
+}
+.texto1{
+  color:white;
+  padding-top: 95px;
+  padding-left: 80px;
+  padding-right: 30px;
+  width: 40%;
+  height: 100vh;
+}
+
+.texto1 h1 {
+    font-size: 65px;
+  font-family: PT Sans;
+  line-height: 80px; 
+
+}
+.texto1 h1 span {
+    font-size: 100px;
+  font-family: PT Sans;
+
+}
+
+h2{
+  font-size: 40px;
+  font-family: PT Sans;
+  font-weight: lighter;
+  margin-top:-20px;
+}
+.titulo2{
+  color:var(--titulos);
+  font-size: 70px;
+  width: 80%;
+  padding-left: 730px;
+  margin-top: 40px;
+  font-family: PT Sans;
+  font-weight:bold;
+  line-height: 1; 
+}
+.titulo3{
+  color:var(--titulos);
+  font-size:60px;
+  font-family: PT Sans;
+  font-weight:bold;
+  width: 90%;
+  line-height: 1; 
+   padding-left:80px;
+  margin-top: 10px;
+}
+.texto3 iframe {
+    height: 800px;
+    margin-top: 2px;
+    margin-right: 10px;
+    width: 6000px;
+}
+.texto3{
+  padding-left:70px;
+}
+.texto3 p{
+  color: var(--gray);
+  width:90%;
+  font-family: PT Sans;
+  font-size:25px;
+  font-weight: lighter;
+  margin-top:-40px;
+}
+.texto3-1 {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.texto3-2 {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;
+}
+
+.texto3-2 img {
+    margin-right: 10px; 
+}
+.pagina4{
+  background-image: url("./Web Recursos/Tercera parte/fondo-batch.jpg");
+  height:760px;
+  background-size: 100% 100%;
+  padding-top: 10px;
+}
+.pagina5{
+  background-color: var(--naranja);
+  padding-top: 10px;
+  color: white;
+  font-family: PT Sans;
+  height: 200px;
+}
+.pagina6{
+  height: 800px;
+}
+.pagina7{
+  background: linear-gradient(to right, #d6d6d6, #e6e6e6);
+  height: 950px;
+}
+.pagina8{
+  background-image: url("./Web Recursos/Sexta Parte/banner-fondo-batch.jpg");
+  height: 700px;
+  margin-top: -40px;
+}
+.texto5{
+  padding-left: 450px;
+  padding-top: 10px;
+}
+.texto5 p{
+  font-size:30px;
+  font-weight: lighter;
+  width: 50%;
+  text-align: center;
+  padding-left: 80px;
+}
+
+.titulo4{
+  color: white;
+  font-size: 50px;
+  font-family: PT Sans;
+  margin-bottom: 1px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+   margin-top: 50px;
+}
+.titulo5{
+  font-size: 50px;
+  margin-bottom: -25px;
+  margin-top: 5px;
+}
+.titulo8{
+  color: white;
+  font-size: 55px;
+  font-family: PT Sans;
+  padding-top: 60px;
+  padding-left: 450px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+.elements_contanier{
+  background-color: white;
+  width: 1200px;
+  margin-left: 150px;
+  padding-right: 100px;
+  border-radius: 20px;
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.6) ;
+}
+.caracteristicas_2 img{
+  height: 300px;
+  margin-top: -30px;
+}
+.caracteristicas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 35px;
+  font-family: PT Sans;;
+}
+.caracteristicas p{
+  padding-left: 60px;
+  font-weight: bolder;
+  color: var(--gray);
+  border-bottom: 0.5px solid var(--titulos);
+  padding-bottom: 10px
+}
+.caracteristicas_2 p {
+    width: 45%;
+    font-size: 35px;
+    font-family: PT Sans;
+    margin-left: 80px;
+    margin-right: 260px;
+  margin-top: 10px;
+  font-weight: lighter;
+  color: var(--gray);
+}
+#años_exp{
+  color: var(--titulos);
+   border-bottom: 10px solid var(--titulos);
+}
+.caracteristicas_2{
+display: flex;
+  justify-content: center;
+}
+.bloque2-6{
+  padding-right: 96px;
+}
+.bloque1-7, .bloque2-7, .bloque3-7{
+  display: flex;
+}
+.bloque1-7 img, .bloque2-7 img, .bloque3-7 img{
+  height: 100px;
+  width: 100px;
+}
+#main_image7 {
+    height: 750px;
+    width: 1800px;
+}
+#implementacion, #costo{
+  width: 80%;
+}
+.total_bloques{
+  padding-top: 40px;
+  padding-left: 100px;
+}
+.titulo6{
+  color: var(--titulos);
+  font-size: 50px;
+  font-family: PT Sans;
+  margin-bottom: 35px;
+  margin-top: 50px;
+  font-weight: bold;
+  width: 75%;
+  line-height: 1;
+  margin-left: 40px;
+}
+.titulo7 {
+    color: var(--titulos);
+    font-size: 60px;
+    font-family: PT Sans;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    font-weight: bolder;
+    width: 80%;
+    line-height: 1;
+    margin-left: 40px;
+}
+.titulo9 {
+    color: var(--titulos);
+    font-size: 60px;
+    font-family: PT Sans;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    font-weight: bolder;
+    width: 90%;
+    line-height:1;
+}
+.email_telefono{
+  display: flex;
+}
+.part1, .part2{
+  display: flex;
+}
+.bold-title{
+  font-weight: bolder;
+  font-family: PT Sans;
+  font-size: 30px;
+  margin-bottom: -10px
+}
+.parte1-9 h2{
+  color: var(--gray);
+  font-size: 35px;
+  font-family: PT Sans;
+  width: 90%;
+}
+.parte1-9{
+  padding-left: 130px;
+}
+.texto4{
+  padding-left: 750px;
+   margin-top: -50px;
+}
+.texto6{
+  display: flex;
+  padding-top: 30px;
+}
+.texto6 p{
+  font-size: 20px;
+   font-family: PT Sans;
+}
+.texto7{
+  display: flex;
+  padding-left: 60px;
+}
+.texto7 p{
+  font-size: 25px;
+  font-family: PT Sans;
+  text-align: center;
+  width: 70%;
+}
+.texto7-1 img{
+  height:100px;
+  width: 100px;
+  padding-left: 100px;
+}
+.bloque1-6{
+  padding-left: 100px;
+}
+.texto6-1{
+  display: flex;
+}
+.texto6-1 img{
+  height: 30px;
+  width: 30px;
+  padding-top: 19px;
+  padding-right: 10px;
+}
+#dibujo-software{
+  height: 350px;
+  width: 400px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  }
+#redes_sociales-azul{
+  height: 60px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+#texto6-1_2{
+  width: 85%;
+}
+#ubicacion{
+  font-size: 25px;
+}
+.correo_email{
+  font-size: 30px;
+  font-family: PT Sans;
+  color: var(--gray);
+  margin-top: 10px;
+}
+.prueba_boton {
+    background-color: var(--naranja);
+    border-radius: 15px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+  padding-bottom: 20px;
+    font-weight: bold;
+    height:45px;
+  font-family: Montserrat;
+  margin-left: 40px;
+  padding-right: 100px;
+  text-align: center;
+}
+.prueba_boton:hover {
+    background-color: #ff6d2e;
+}
+.asesoria_boton {
+    background-color: var(--botones);
+    border-radius: 15px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+  padding-bottom: 20px;
+    font-weight: bold;
+    height:45px;
+  font-family: Montserrat;
+  margin-left: 40px;
+  padding-right: 100px;
+  text-align: center;
+}
+.asesoria_boton:hover {
+    background-color: #0d88a0;
+}
+.boton1{
+  width:200px;
+margin-left: 60px;
+  margin-top: 10px;
+}
+.boton2{
+margin-left: 60px;
+margin-top: 15px;
+}
+.botones{
+  display: flex;
+  padding-top: 20px
+}
+#politica_datos9 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#boton_pagina6{
+  padding-left: 300px;
+  padding-top: 60px;
+}
+#boton_pagina7{
+  padding-left: 400px;
+  padding-top: 30px;
+}
+#check-icon{
+  height: 50px;
+  width: 50px;
+ margin-top: -70px;
+
+}
+.banner{
+  background: linear-gradient(to right,var(--titulos), #49a3c1);
+  height: 110px;
+  border-bottom: 0.5px solid white;
+}
+.redes {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+  padding-top: 15px;
+}
+.redes img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+#logo_banner{
+  height: 70px;
+  width: 300px;
+  padding-right: 950px;
+}
+#logo_pag3{
+  height: 120px;
+  width: 450px;
+  padding-left: 110px;
+  padding-top: 15px;
+}
+.texto2 {
+  display: flex;
+}
+.texto9_1-2{
+  display: flex;
+}
+.bloque1, .bloque2 {
+  margin-right: 10px;
+  margin-top: 200px;
+  width: 50%;
+  font-weight: 100;
+}
+.bloque1 img, .bloque2 img{
+  width: 70px;
+  height: 70px;
+  padding-top:30px;
+}
+.bloque2{
+  margin-top: 190px;
+}
+.dibujo{
+  width: 600px;
+  height: 540px;
+  margin-left: -1450px;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+.element {
+    display: flex;
+}
+
+.element p {
+    font-size: 25px;
+  font-family: PT Sans;
+  color: var(--gray);
+  font-weight: lighter;
+}
+
+.element > * {
+    margin-left: 10px; 
+}
+#element1 p::before {
+    content: "Colapso en el almaenamiento ";
+    font-weight: bold; 
+}
+#element2 p::before {
+    content: "Demora";
+    font-weight: bold; 
+}
+#element3 span, #element6 span {
+    font-weight: bold; 
+}
+#element4 p::before {
+    content: "Deficiencia en el servivio ";
+    font-weight: bold; 
+}
+#element5 p::before {
+    content: "Perdida o desorden";
+    font-weight: bold;
+}
+#element5 p{
+   width: 70%;
+  margin-top: 40px;
+}
+
+/* Estilo para el checkbox */
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border: 2px solid #0A6E9F;
+    outline: none;
+    cursor: pointer;
+margin: 0 8px 0 0;
+  margin-top: -22px;
+
+}
+
+/* mostrar el símbolo de verificación */
+input[type="checkbox"]::before {
+    content: '\2713'; /* Código de caracter para el símbolo de verificación */
+    font-size: 16px;
+    color: #0A6E9F;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+  margin-top: -22px;
+
+}
+
+/* Estilo cuando el checkbox está marcado */
+input[type="checkbox"]:checked::before {
+    visibility: visible;
+margin-top: 58px;
+}
+
+
+
+input[type="checkbox"]:checked::before {
+    visibility: visible;
+  margin-top: 1px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+.texto-checkbox {
+    display: flex;
+    flex-direction: column; 
+  font-size: 12px;
+  color: gray; 
+margin-top: -22px;
+  font-family: Montserrat;
+}
+
+.ver-link {
+    margin-top: -2px;
+    color: gray;
+    cursor: pointer;
+  font-size: 12px;
+}
+#link9{
+  color:#9ec3e5;
+  font-size: 15px;
+}
+
+.aquí {
+    color:var(--botones); 
+    text-decoration: none; 
+  font-family: Montserrat;
+  font-weight: bold;
+}
+#aqui_pag9{
+  color: white;
+  font-weight: bolder;
+}
+.checkbox_pag9{
+  font-size: 15px;
+  margin-top: 22px;
+  display: flex;
+  font-weight: lighter;
+  flex-direction: column; 
+  color:#9ec3e5; 
+  font-family: Montserrat;
+}
+label.aceptar_politica_datos.pagina9 input[type="checkbox"] {
+    border: 2px solid white;
+    background-color: white;
+    margin-top: 20px;
+}
+
+label.aceptar_politica_datos.pagina9 input[type="checkbox"]::before {
+    color: var(--botones);
+}
+.pagina1 {
+    background-image: url(banner-fondo-batch.jpg);
+    background-size: auto cover; 
+    background-repeat: no-repeat;
+    background-position: center-bottom;
+  height: 750px;
+}
+.pagina2{
+  height: 700px;
+}
+.pagina3{
+  background-color: #ededed;
+   height: 1000px;
+}
+.content img{
+  height: 90px;
+  width:90px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.content{
+  background-color: white;
+  height: 300px;
+  margin: 20px;
+  width:200px;
+  border-radius: 12px;
+  align-content: center;
+box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.6);
+}
+.content p{
+  font-size: 20px;
+font-family: PT Sans;
+  width: 50%;
+  color: var(--gray);
+  font-weight: lighter;
+  padding-left: 50px;
+}
+.texto3{
+  display: flex;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 600px) {
+  :root {
+    --sm: 12px; 
+    --md: 14px;
+    --lg: 24px; 
+  }
+  .form-container {
+      width: 60%;
+    margin-left: -490px;
+      margin-top: 700px;
+      height: 500px;
+      transform: scale(2.5);
+  }
+  .texto1{
+    width:100% ;
+  }
+
+  .texto1 h1 {
+    font-size: 95px;
+        line-height: 80px;
+        margin-top: -60px;
+    }
+  .texto1 h1 span {
+      font-size: 100px;
+  }
+  h2 {
+      font-size: 70px;
+      margin-top: -20px;
+      width: 90%;
+  }
+  .pagina1 {
+      height: 2350px;
+      background-size: cover;
+  }
+  body {
+    width: 415%;
+    overflow-x: hidden;
+    /* width: 800%; */
+     /*transform: scale(0.3);
+    margin-left: -630px;
+    margin-top: -6700px; */
+  }
+  .input{
+    height: 55px;
+    font-size: 22px;
+  }
+  .input-name, .input-email, .input-telefono {
+      margin-bottom: 15px;
+  }
+  .title {
+      font-size: 34px;
+  }
+  .primary-buttom{
+    font-size: 24px;
+    height: 35px;
+  }
+  .login-buttom {
+      margin-bottom: 40px;
+  }
+  .dibujo {
+      width: 0;
+  }
+  .texto2{
+    flex-direction: row-reverse;
+    display: block;
+  }
+  .titulo2 {
+      width: 90%;
+      padding-left: 30px;
+      text-align: center;
+      margin-top: 30px;
+    font-size: 120px;
+  }
+  .bloque1 {
+    display: block;
+    width: 80%;
+    margin-top: -650px;
+    margin-left: 70px;
+  }
+  .bloque2 {
+      display: block;
+      width: 80%;
+      margin-top: -20px;
+     margin-left: 70px;
+  }
+
+
+  .bloque1 p, .bloque2 p {
+    font-size: 70px;
+  }
+  .texto3 p {
+     font-size: 70px;
+  }
+  .pagina2{
+    height: 2600px;
+  }
+  #logo_banner {
+      height: 70px;
+      width: 300px;
+      padding-right: 25px;
+  }
+  #logo_pag3 {
+      height: 200px;
+      width: 700px;
+      padding-left: 10px;
+  }
+  .titulo3 {
+      font-size: 95px;
+      width: 80%;
+      padding-left: 5px;
+     margin-bottom:70px;
+  }
+  .texto3-2 {
+      display: b;
+      align-items: center;
+      margin-bottom:70px;
+      width:80%;
+  }
+  .pagina3 {
+    height: 3500px;
+  }
+  .asesoria_boton {
+      margin-top: 90px;
+      margin-left: -360px;
+  }
+  .botones {
+      margin-top: -40px;
+    margin-left: 39px;
+  }
+  #boton_pagina9{
+     margin-top: 90px;
+      margin-left: 370px;
+  }
+  .texto4 {
+      padding-left: 480px;
+      transform: scale(2.5);
+      padding-top: 300px;
+  }
+  .titulo5 {
+      font-size: 40px;
+  }
+  .pagina5 {
+      transform: scale(2.5);
+  }
+  .texto6 p {
+      font-size: 70px;
+      width: 80%;
+  }
+  .texto5 p {
+    width: 40%;
+      margin-left: -20px;
+  }
+  #dibujo-software {
+      height: 0px;
+  }
+  .bloque2-6 {
+      margin-top: -60px;
+      padding-left: 100px;
+  }
+  .pagina6 {
+      height: 3370px;
+  }
+    .titulo6{
+    width: 100%;
+  }
+#boton_pagina6 {
+  padding-left: 400px;
+  padding-top: 130px;
+}
+  #main_image7 {
+     display: none;
+  }
+  .pagina7 {
+    height: 3800px;
+  }
+  .pagina8 {
+    display:none;
+  }
+  .texto9_1-2 {
+    display: block;
+  }
+  #name9, #SitioWeb {
+    padding-right: 450px;
+  }
+  #email9, #telefono9 {
+    padding-right: 65px;
+  }
+  .botones {
+      padding-top:120px;
+      margin-right: 620px;
+      transform: scale(2.5);
+      padding-left: 200px;
+      padding-bottom: 70px;
+  }
+.titulo4 {
+    margin-left: 60px;
+}
+  .pagina4 {
+    height: 2200px;
+  }
+  .texto5 {
+      padding-left: 530px;
+  }
+  .texto6 {
+      display: block;
+  }
+  .texto6-1 img {
+      height: 70px;
+      width: 70px;
+      padding-top: 89px;
+  }
+  .texto7 {
+      display: block;
+      padding-left: 60px;
+      padding-top: 50px;
+  }
+  .bloque1-7, .bloque2-7, .bloque3-7 {
+      display: block;
+  }
+  .texto7 p {
+      font-size: 70px;
+      width: 80%;
+  }
+  .texto7-1 img {
+      height: 200px;
+      width: 200px;
+      padding-left: 500px;
+  }
+  .titulo7 {
+      font-size: 130px;
+  }
+  .parte1-9 {
+    padding-left: 350px;
+      transform: scale(2.0);
+      padding-top: 150px;
+    width: 50%;
+  }
+  .parte2-9 {
+    padding-top: 550px;
+  }
+  .form-piepagina {
+    margin-left: 550px;
+    transform: scale(2.0);
+    margin-bottom: 100px;
+  }
+  #check-icon {
+      height: 100px;
+      width: 100px;
+      margin-top: -150px;
+  }
+  .bloque1 img, .bloque2 img {
+      width: 150px;
+      height: 150px;
+      padding-top: 50px;
+  }
+  .redes {
+      margin-right: 900px;
+      transform: scale(2.0);
+    padding-top: 55px;
+  }
+  .banner {
+      height: 250px;
+  }
+  #politica_datos9 {
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+  .texto3 {
+      display: block;
+  }
+  .texto3 iframe {
+      height: 600px;
+      padding-top: 300px;
+      margin-right: 10px;
+      width: 1200px;
+  }
+}
