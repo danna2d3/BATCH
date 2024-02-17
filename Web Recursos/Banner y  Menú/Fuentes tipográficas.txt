@@ -1,0 +1,4 @@
+Titulo:PT sans Bold
+Texto:PT sans Regular
+Formulario titulo: PT Sans Bold
+Formulario texto: montserrat regular

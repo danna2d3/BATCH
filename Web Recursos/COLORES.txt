@@ -1,0 +1,6 @@
+COLORES
+
+Azul Titúlos: 0A6E9F
+Naranja: FF7C43
+Azul botones: 0A939E
+Gris texto: 494949
